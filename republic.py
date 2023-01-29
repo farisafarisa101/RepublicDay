@@ -1,5 +1,10 @@
 import turtle
 from turtle import *
+from pygame import mixer
+# Code for Music
+mixer.init()
+mixer.music.load('music.mp3')
+mixer.music.play()
 
 screen =turtle.Screen()
 turtle.hideturtle()
